@@ -18,7 +18,6 @@
     "docz:serve": "docz build && docz serve"
   },
   "main": "index.js",
-  "devDependencies": {npm install -D @netlify/plugin-gatsby},
   "dependencies": {
     "docz": "latest",
     "gatsby": "^2.30.3",
