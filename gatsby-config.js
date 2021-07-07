@@ -9,6 +9,3 @@ module.exports = {
     }
   ]
 };
-module.exports = {
-  plugins: ['gatsby-theme-docz']
-}
