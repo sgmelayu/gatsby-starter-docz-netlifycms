@@ -31,11 +31,13 @@ init({
           },
           {
             label: 'Route',
-            name: 'route'
+            name: 'route',
+            required: false
           },
           {
             label: 'Body',
             name: 'body',
+            widget: 'html',
             widget: 'markdown'
           },
         ]
