@@ -3,3 +3,11 @@
   from = "/*"
   to = "/"
   status = 200
+build:
+  command: yarn build
+  commandOrigin: ui
+  publish: /opt/build/repo
+  publishOrigin: ui
+  functions:
+  '*': {}
+  redirectsOrigin: config
